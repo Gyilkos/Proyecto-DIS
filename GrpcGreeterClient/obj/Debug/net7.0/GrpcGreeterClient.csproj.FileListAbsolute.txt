@@ -19,24 +19,3 @@ C:\Users\jeani\OneDrive\Escritorio\GrpcGreeterClient\obj\Debug\net7.0\refint\Grp
 C:\Users\jeani\OneDrive\Escritorio\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.pdb
 C:\Users\jeani\OneDrive\Escritorio\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.genruntimeconfig.cache
 C:\Users\jeani\OneDrive\Escritorio\GrpcGreeterClient\obj\Debug\net7.0\ref\GrpcGreeterClient.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\GrpcGreeterClient.exe
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\GrpcGreeterClient.deps.json
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\GrpcGreeterClient.runtimeconfig.json
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\GrpcGreeterClient.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\GrpcGreeterClient.pdb
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\Google.Protobuf.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\Grpc.Core.Api.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\Grpc.Net.Client.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\Grpc.Net.Common.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.csproj.AssemblyReference.cache
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.AssemblyInfoInputs.cache
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.AssemblyInfo.cs
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.csproj.CoreCompileInputs.cache
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.csproj.CopyComplete
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\refint\GrpcGreeterClient.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.pdb
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\GrpcGreeterClient.genruntimeconfig.cache
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\GrpcGreeterClient\obj\Debug\net7.0\ref\GrpcGreeterClient.dll

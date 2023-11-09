@@ -32,37 +32,3 @@ C:\Users\jeani\OneDrive\Escritorio\servicio\obj\Debug\net7.0\refint\servicio.dll
 C:\Users\jeani\OneDrive\Escritorio\servicio\obj\Debug\net7.0\servicio.pdb
 C:\Users\jeani\OneDrive\Escritorio\servicio\obj\Debug\net7.0\servicio.genruntimeconfig.cache
 C:\Users\jeani\OneDrive\Escritorio\servicio\obj\Debug\net7.0\ref\servicio.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\appsettings.json
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\servicio.exe
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\servicio.deps.json
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\servicio.runtimeconfig.json
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\servicio.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\servicio.pdb
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\Google.Protobuf.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\Grpc.Core.Api.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\Grpc.Net.Client.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\bin\Debug\net7.0\Grpc.Net.Common.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.csproj.AssemblyReference.cache
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.AssemblyInfoInputs.cache
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.AssemblyInfo.cs
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.csproj.CoreCompileInputs.cache
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\staticwebassets\msbuild.servicio.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\staticwebassets\msbuild.build.servicio.props
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.servicio.props
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.servicio.props
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\scopedcss\bundle\servicio.styles.css
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.csproj.CopyComplete
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\refint\servicio.dll
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.pdb
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\servicio.genruntimeconfig.cache
-C:\Users\nicol\OneDrive\Escritorio\Proyecto Desarrollo e integracion\Servicio\obj\Debug\net7.0\ref\servicio.dll

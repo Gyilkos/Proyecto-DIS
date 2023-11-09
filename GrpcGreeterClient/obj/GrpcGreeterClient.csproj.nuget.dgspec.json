@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\OneDrive\\Escritorio\\Proyecto Desarrollo e integracion\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {}
+    "C:\\Users\\jeani\\onedrive\\escritorio\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\OneDrive\\Escritorio\\Proyecto Desarrollo e integracion\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {
+    "C:\\Users\\jeani\\onedrive\\escritorio\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\OneDrive\\Escritorio\\Proyecto Desarrollo e integracion\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+        "projectUniqueName": "C:\\Users\\jeani\\onedrive\\escritorio\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
         "projectName": "GrpcGreeterClient",
-        "projectPath": "C:\\Users\\nicol\\OneDrive\\Escritorio\\Proyecto Desarrollo e integracion\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\OneDrive\\Escritorio\\Proyecto Desarrollo e integracion\\GrpcGreeterClient\\obj\\",
+        "projectPath": "C:\\Users\\jeani\\onedrive\\escritorio\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+        "packagesPath": "C:\\Users\\jeani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeani\\onedrive\\escritorio\\GrpcGreeterClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jeani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

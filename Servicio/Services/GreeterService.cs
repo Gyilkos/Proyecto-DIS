@@ -23,9 +23,4 @@ public class GreeterService : Greeter.GreeterBase
     {
         return Task.FromResult(new CuadradoReply { Cuadrado = request.Numero*request.Numero});
     }
-
-    plublic override Task<SumaReply> Suma(SumaRequest request, ServerCallContext context)
-    {
-        return Task.FromResult(new SumaReply { Suma = request.Numero + request.Numero});
-    }
 }
