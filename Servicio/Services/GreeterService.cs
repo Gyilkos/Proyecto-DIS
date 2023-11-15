@@ -23,4 +23,13 @@ public class GreeterService : Greeter.GreeterBase
     {
         return Task.FromResult(new CuadradoReply { Cuadrado = request.Numero*request.Numero});
     }
+
+
+    // public override Task<PatenteReply> Patente(PatenteRequest request, ServerCallContext context)
+    // {
+    //     // Supongamos que esta función busca el estado de la patente
+    //     string estadoPatente = BuscarEstadoPatente(request.NumeroPatente);
+
+    //     return Task.FromResult(new PatenteReply { EstadoPatente = estadoPatente });
+    // }
 }
