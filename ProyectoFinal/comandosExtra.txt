@@ -1,0 +1,7 @@
+# comando para ver que colas hay 
+
+#linux
+sudo rabbitmqctl list_queues
+
+#windows
+rabbitmqctl.bat list_queues
