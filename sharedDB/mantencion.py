@@ -74,8 +74,8 @@ def startMaintence():
     # Realizar función SELECT para buscar auto
     # Actualizar dato de la base de datos (Estado => 1)
     # Cerrar la conección
-    # TODO: Solo es una copia del finishMaintence
-    patenteMantencion = input("Ingrese la patente del auto para terminar mantencion: ").upper()
+    # TODO: Testear
+    patenteMantencion = input("Ingrese la patente del auto para iniciar mantención: ").upper()
     autoDisponible = False
     try:
         #query para verificar que este la patente y el auto en Mantencion
@@ -93,15 +93,15 @@ def startMaintence():
     except:
         print("ERROR:Revise que el vehiculo esta disponible(except)")
     if autoDisponible == True:
-        #Hacer query para cambiar estado a Disponible (1)
+        #Hacer query para cambiar estado a Mantencion (0)
         try:
             con = sqlite3.connect("Shared.db")
             cur = con.cursor()
-            cur.execute("UPDATE Camioneta SET Estado = 1 WHERE Patente = '"+patenteMantencion+"';")
+            cur.execute("UPDATE Camioneta SET Estado = 0 WHERE Patente = '"+patenteMantencion+"';")
             con.commit()
             con.close()
             print("+"*10)
-            print("Entrega de "+patenteMantencion+" realizado con exito")
+            print("Inicio de mantención de "+patenteMantencion+" realizado con exito")
             print("+"*10)
         except:
             print("ERROR: hubo problemas con su arriendo intente denuevo")
@@ -148,8 +148,8 @@ def showMenu():
     print("App Camionetas")
     print("Acciones:")
     print("1: Mostrar Listado Camionetas")
-    print("2: ")
-    print("3: ")
+    print("2: Actualizar kilometros")
+    print("3: Actualizar próxima mantención")
     print("4: Finalizar mantención")
     print("5: Salir")
     print("="*30)
@@ -162,9 +162,9 @@ while salirMenu != True:
         case "1":
             showList()
         case "2":
-            print("Work in progress")
+            setKilometer()
         case "3":
-            print("Work in progress")
+            setNextMaintence()
         case "4":
             finishMaintence()
         case "5":
