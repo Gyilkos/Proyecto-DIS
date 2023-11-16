@@ -130,7 +130,7 @@ def startMaintence():
     patenteMantencion = input("Ingrese la patente del auto para iniciar mantención: ").upper()
     autoDisponible = False
     try:
-        #query para verificar que este la patente y el auto en Mantencion
+        #query para verificar que este la patente y el auto disponible
         con = sqlite3.connect("Shared.db")
         cur = con.cursor()
         cur.execute("SELECT Patente FROM Camioneta WHERE Estado = 1 AND Patente = '"+ patenteMantencion+ "';")
@@ -168,7 +168,7 @@ def finishMaintence():
         #query para verificar que este la patente y el auto en Mantencion
         con = sqlite3.connect("Shared.db")
         cur = con.cursor()
-        cur.execute("SELECT Patente FROM Camioneta WHERE Estado = 1 AND Patente = '"+ patenteMantencion+ "';")
+        cur.execute("SELECT Patente FROM Camioneta WHERE Estado = 2 AND Patente = '"+ patenteMantencion+ "';")
         print(cur)
         if len(cur.fetchall()) == 0:
             print("ERROR:Revise que el vehiculo esta disponible(len=0)")
