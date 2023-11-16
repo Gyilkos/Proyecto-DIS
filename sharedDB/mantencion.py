@@ -1,7 +1,7 @@
 # Imports
 import sqlite3
 
-#Hola Mundo
+#Ho-la Mundo
 
 # *Mostrar lista
 # Patente, Estado, Kilometraje,ProximaMantencion
