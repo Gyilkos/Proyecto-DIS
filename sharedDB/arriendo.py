@@ -109,8 +109,42 @@ def releaseCar():
 
 # *Main
 # Menu
-def Menu():
-    print("Menu")
+def showMenu():
+    print("="*30)
+    print("App Camionetas")
+    print("Acciones:")
+    print("1: Mostrar Listado Camionetas")
+    print("2: Arrendar Auto")
+    print("3: Entregar Auto")
+    #print("4: Salir")
+    print("="*30)
 
 #Testing
-showList()
+salirMenu = False
+while salirMenu != True:
+    showMenu()
+    respuesta = input(": ")
+    match respuesta:
+        case "1":
+            showList()
+        case "2":
+            rentCar()
+        case "3":
+            releaseCar()
+        #case "4":
+        #    salirMenu = True
+        case _:
+            print("")
+#showList()
+
+'''
+print("="*30)
+        print("App Camionetas")
+        print("Acciones:")
+        print("1: Mostrar Listado Camionetas")
+        print("2: Arrendar Auto")
+        print("3: Entregar Auto")
+
+        print("="*30)
+        respuesta = input(": ")
+'''

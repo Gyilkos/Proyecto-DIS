@@ -76,4 +76,33 @@ def finishMaintence(patente):
     # Actualizar dato de la base de datos (Estado => 0)
     # Cerrar la conección
 
-showList()
+# *Main
+# Menu
+def showMenu():
+    print("="*30)
+    print("App Camionetas")
+    print("Acciones:")
+    print("1: Mostrar Listado Camionetas")
+    print("2: ")
+    print("3: ")
+    print("4: ")
+    print("="*30)
+
+salirMenu = False
+while salirMenu != True:
+    showMenu()
+    respuesta = input(": ")
+    match respuesta:
+        case "1":
+            showList()
+        case "2":
+            print()
+        case "3":
+            print()
+        #case "4":
+            #print("")
+        case _:
+        #    salirMenu = True
+            print("")
+
+#showList()
