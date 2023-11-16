@@ -109,6 +109,7 @@ def IniciarMantencion():
 
 # *Actualizar proxima mantencion
 # Patente
+'''
 def setNextMaintence():
     patente = input("Ingrese la patente del auto para fijar proxima mantencion: ").upper()
     nuevaProximaMantencion = input("ingrese la nueva ProximaMantencion: ")
@@ -140,10 +141,11 @@ def setNextMaintence():
         print("+"*10)
     else:
         print("ERROR: hubo problemas con actualizar nuevaProximaMantencion intente denuevo(autoDIsponible)")
-   
+'''
 
 # *Iniciar mantencion
 # Patente, Estado
+'''
 def startMaintence():
     # Realizar función SELECT para buscar auto
     # Actualizar dato de la base de datos (Estado => 1)
@@ -179,6 +181,7 @@ def startMaintence():
             print("+"*10)
         except:
             print("ERROR: hubo problemas con su arriendo intente denuevo")
+'''
 
 # *Terminar mantencion
 # Patente, Estado
