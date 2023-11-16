@@ -74,6 +74,37 @@ def startMaintence():
     # Realizar función SELECT para buscar auto
     # Actualizar dato de la base de datos (Estado => 1)
     # Cerrar la conección
+    # TODO: Solo es una copia del finishMaintence
+    patenteMantencion = input("Ingrese la patente del auto para terminar mantencion: ").upper()
+    autoDisponible = False
+    try:
+        #query para verificar que este la patente y el auto en Mantencion
+        con = sqlite3.connect("Shared.db")
+        cur = con.cursor()
+        cur.execute("SELECT Patente FROM Camioneta WHERE Estado = 1 AND Patente = '"+ patenteMantencion+ "';")
+        print(cur)
+        if len(cur.fetchall()) == 0:
+            print("ERROR:Revise que el vehiculo esta disponible(len=0)")
+        else:
+            autoDisponible = True
+        
+        con.commit()
+        con.close()
+    except:
+        print("ERROR:Revise que el vehiculo esta disponible(except)")
+    if autoDisponible == True:
+        #Hacer query para cambiar estado a Disponible (1)
+        try:
+            con = sqlite3.connect("Shared.db")
+            cur = con.cursor()
+            cur.execute("UPDATE Camioneta SET Estado = 1 WHERE Patente = '"+patenteMantencion+"';")
+            con.commit()
+            con.close()
+            print("+"*10)
+            print("Entrega de "+patenteMantencion+" realizado con exito")
+            print("+"*10)
+        except:
+            print("ERROR: hubo problemas con su arriendo intente denuevo")
 
 # *Terminar mantencion
 # Patente, Estado
