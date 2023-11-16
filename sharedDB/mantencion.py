@@ -55,17 +55,69 @@ def showList():
 # Patente, Kilometraje
 def setKilometer(patente, newKilometer):
     print("Set Kilometer")
-    # Realizar función SELECT para buscar auto
-    # Actualizar dato de la base de datos (Kilometraje = newKilometer)
-    # Cerrar la conección
+    patente = input("Ingrese la patente del auto para hacerle mantencion: ").upper()
+    nuevoKilometraje = input("ingrese el nuevo kilometraje: ")
+
+    # actualizar kilometraje
+    autoDisponible = False
+    try:
+        con = sqlite3.connect("DBmantencion.db")
+
+        cur = con.cursor()
+        cur.execute("UPDATE Mantencion SET Kilometraje = "+nuevoKilometraje+" WHERE Patente = '"+patente+"';")
+        
+    
+        autoDisponible = True
+        
+        con.commit()
+        con.close()
+
+        
+    except:
+        print("ERROR: hubo problemas con actualizar kilometraje intente denuevo(except)")
+    
+    if autoDisponible == True:
+        print("+"*10)
+        print("Vehiculo "+patente+" , kilometraje actualizado con exito")
+        print("+"*10)
+    else:
+        print("ERROR: hubo problemas con actualizar kilometraje intente denuevo(autoDIsponible)")
 
 # *Actualizar proxima mantencion
 # Patente
 def setNextMaintence():
     print("Set Next Maintence")
-    # Realizar función SELECT para buscar auto
-    # Actualizar dato de la base de datos (nextMaintence = newNextMaintence)
-    # Cerrar la conección
+    patente = input("Ingrese la patente del auto para fijar proxima mantencion: ").upper()
+    nuevaProximaMantencion = input("ingrese la nueva ProximaMantencion: ")
+    
+    
+    
+
+    # actualizar porxima mantencion
+    autoDisponible = False
+    try:
+        con = sqlite3.connect("DBmantencion.db")
+
+        cur = con.cursor()
+        cur.execute("UPDATE Mantencion SET ProximaMantencion = "+nuevaProximaMantencion+" WHERE Patente = '"+patente+"';")
+        
+    
+        autoDisponible = True
+        
+        con.commit()
+        con.close()
+
+        
+    except:
+        print("ERROR: hubo problemas con actualizar nuevaProximaMantencion intente denuevo(except)")
+    
+    if autoDisponible == True:
+        print("+"*10)
+        print("Vehiculo "+patente+" , ProximaMantencion actualizado con exito")
+        print("+"*10)
+    else:
+        print("ERROR: hubo problemas con actualizar nuevaProximaMantencion intente denuevo(autoDIsponible)")
+   
 
 # *Iniciar mantencion
 # Patente, Estado
