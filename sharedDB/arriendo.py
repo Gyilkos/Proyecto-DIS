@@ -7,7 +7,6 @@ import sqlite3
 # *Mostrar lista (Disponibles)
 # Estado, Kilometraje
 def showList():
-    print("Show List")
     # Realizar una función SELECT
     con = sqlite3.connect("Shared.db")
 
@@ -42,7 +41,6 @@ def showList():
 # *Arriendo Auto
 # Patente, Estado
 def rentCar():
-    print("Rent Car")
     patenteArrendar = input("Ingrese la patente del auto para arrendar: ").upper()
     autoDisponible = False
     try:
@@ -76,7 +74,6 @@ def rentCar():
 # *Devolver auto
 # Patente, Estado, Kilometraje (actualizado)
 def releaseCar():
-    print("Rent Car")
     patenteArrendar = input("Ingrese la patente del auto para arrendar: ").upper()
     autoDisponible = False
     try:
@@ -107,6 +104,7 @@ def releaseCar():
         except:
             print("ERROR: hubo problemas con su arriendo intente denuevo")
 
+
 # *Main
 # Menu
 def showMenu():
@@ -116,7 +114,7 @@ def showMenu():
     print("1: Mostrar Listado Camionetas")
     print("2: Arrendar Auto")
     print("3: Entregar Auto")
-    #print("4: Salir")
+    print("4: Salir")
     print("="*30)
 
 #Testing
@@ -131,20 +129,8 @@ while salirMenu != True:
             rentCar()
         case "3":
             releaseCar()
-        #case "4":
-        #    salirMenu = True
+        case "4":
+            salirMenu = True
         case _:
             print("")
 #showList()
-
-'''
-print("="*30)
-        print("App Camionetas")
-        print("Acciones:")
-        print("1: Mostrar Listado Camionetas")
-        print("2: Arrendar Auto")
-        print("3: Entregar Auto")
-
-        print("="*30)
-        respuesta = input(": ")
-'''

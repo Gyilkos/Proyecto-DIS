@@ -9,8 +9,12 @@ def showList():
     print("Show List")
     #buscar patentes de autos disponibles y mantenimiento (estado: 0 y 1) y devolver las patentes
     #print("peticion patentes y estados de no arrendadas")
+
+    #Abrir conección
     con = sqlite3.connect("Shared.db")
     cur = con.cursor()
+
+    #Realizar query de vehículos disponibles y en mantenimiento
     cur.execute("SELECT Patente, Estado FROM Camioneta WHERE Estado = 0 OR Estado = 1;")
     respuestaQuery = cur.fetchall()
     respuesta = ""
@@ -39,8 +43,11 @@ def showList():
     string = str(string).strip(',')
     string += ')'
     print(string)
+
+    #Realizar query de vehículos y su kilometraje
     cur.execute("SELECT Patente, Kilometraje FROM Mantencion WHERE Patente IN" + string + ';')
 
+    #Cerrar la conección
     con.commit()
     con.close()
 
@@ -85,7 +92,7 @@ def showMenu():
     print("1: Mostrar Listado Camionetas")
     print("2: ")
     print("3: ")
-    print("4: ")
+    print("4: Salir")
     print("="*30)
 
 salirMenu = False
@@ -96,13 +103,11 @@ while salirMenu != True:
         case "1":
             showList()
         case "2":
-            print()
+            print("Work in progress")
         case "3":
-            print()
-        #case "4":
+            print("Work in progress")
+        case "4":
+            salirMenu = True
             #print("")
         case _:
-        #    salirMenu = True
             print("")
-
-#showList()
