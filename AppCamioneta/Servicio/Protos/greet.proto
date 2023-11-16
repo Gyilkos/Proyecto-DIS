@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+option csharp_namespace = "servicio";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+
+  rpc Cuadrado (CuadradoRequest) returns (CuadradoReply);
+
+  rpc Patente (PatenteRequest) returns (PatenteReply);
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+message CuadradoRequest {
+  int32 numero = 1;
+}
+
+message CuadradoReply {
+  int32 cuadrado = 1;
+}
+
+message PatenteRequest {
+  string name = 1; // dudas(?)
+  //int32 numero = 1;
+}
+
+message PatenteReply {
+  string message = 1; //dudas(?)
+  //int32 cuadrado = 1;
+}
