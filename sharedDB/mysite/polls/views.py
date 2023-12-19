@@ -30,7 +30,7 @@ def index(request):
     }
     return HttpResponse(template.render(context, request))
 
-     shortcut render
+    #shortcut render
     latest_question_list = Question.objects.order_by("-pub_date")[:5]
     context = {"latest_question_list": latest_question_list}
     return render(request, "polls/index.html", context)
@@ -44,8 +44,12 @@ class IndexView(generic.ListView):
         """Return the last five published questions."""
         return Question.objects.order_by("-pub_date")[:5]
 
+
+
 def chao (request):
     return HttpResponse("Bye world")
+
+
 
 '''
 def detail(request, question_id):
@@ -58,6 +62,13 @@ def detail(request, question_id):
 class DetailView(generic.DetailView):
     model = Question
     template_name = "polls/detail.html"
+    def get_queryset(self):
+        """
+        Excludes any questions that aren't published yet.
+        """
+        return Question.objects.filter(pub_date__lte=timezone.now())
+
+
 
 '''
 def results(request, question_id):
@@ -67,6 +78,8 @@ def results(request, question_id):
 class ResultsView(generic.DetailView):
     model = Question
     template_name = "polls/results.html"
+
+
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
