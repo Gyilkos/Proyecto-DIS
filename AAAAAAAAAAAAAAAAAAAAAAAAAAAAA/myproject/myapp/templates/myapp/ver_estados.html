@@ -1,0 +1,21 @@
+<!-- myapp/templates/myapp/ver_estados.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados de las Camionetas</title>
+</head>
+<body>
+    <h2>Estados de las Camionetas</h2>
+    <ul>
+        {% for patente, estado in datos_camionetas %}
+            <li>{{ patente }} - {{ estado }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'mantenimiento_camioneta' %}"><button>Mantenimiento</button></a>
+    <a href="{% url 'arrendar_camioneta' %}"><button>Arriendo</button></a>
+    <a href="{% url 'entregar_camioneta' %}"><button>Entrega</button></a>
+</body>
+</html>

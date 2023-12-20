@@ -1,0 +1,16 @@
+<!-- myapp/templates/myapp/subpagina.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arrendar Camioneta</title>
+</head>
+<body>
+    <h2>Arrendar Camioneta</h2>
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Arrendar</button>
+    </form>
+    <a href="{% url 'ver_estados' %}"><button>Volver a Estados</button></a>
+</body>
+</html>
